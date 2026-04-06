@@ -58,7 +58,7 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
               <h2 className="handwritten-title">A glance to my journals</h2>
             </div>
             <div className="handwritten-content">
-              <img src="src\imgs\photo_2026-04-06_23-56-27.jpg" alt="" />
+              <img src="/imgs/photo_2026-04-06_23-56-27.jpg" alt="" />
             </div>
           </div>
         </div>
