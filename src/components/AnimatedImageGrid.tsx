@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-
+import pic1 from "src/imgs/photo_2026-04-06_22-36-26.jpg";
 const AnimatedImageGrid: React.FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const images = [
     {
-      src: "src/imgs/photo_2026-04-06_22-36-26.jpg",
+      src: pic1,
       caption: "You are so kind and sincere",
       delay: 0,
     },
