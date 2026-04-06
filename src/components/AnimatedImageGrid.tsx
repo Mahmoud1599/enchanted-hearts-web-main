@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import pic1 from "src/imgs/photo_2026-04-06_22-36-26.jpg";
+import pic1 from "/imgs/photo_2026-04-06_22-36-26.jpg";
 const AnimatedImageGrid: React.FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
@@ -10,17 +10,17 @@ const AnimatedImageGrid: React.FC = () => {
       delay: 0,
     },
     {
-      src: "src/imgs/photo_2026-04-06_22-36-48.jpg",
+      src: "/imgs/photo_2026-04-06_22-36-48.jpg",
       caption: "I never notice the time when I'm with you",
       delay: 0.2,
     },
     {
-      src: "src/imgs/photo_2026-04-06_22-35-44.jpg",
+      src: "/imgs/photo_2026-04-06_22-35-44.jpg",
       caption: "You are graduating 😁",
       delay: 0.4,
     },
     {
-      src: "src/imgs/photo_2026-04-06_22-36-19.jpg",
+      src: "/imgs/photo_2026-04-06_22-36-19.jpg",
       caption: "listening to you is my favourite thing",
       delay: 0.6,
     },
@@ -30,7 +30,7 @@ const AnimatedImageGrid: React.FC = () => {
       delay: 0.8,
     },
     {
-      src: "src/imgs/photo_2026-04-06_22-37-00.jpg",
+      src: "/imgs/photo_2026-04-06_22-37-00.jpg",
       caption: "Meeting you is like medetation, it calms my soul",
       delay: 1.0,
     },
